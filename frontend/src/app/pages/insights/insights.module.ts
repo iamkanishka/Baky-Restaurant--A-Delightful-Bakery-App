@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NativeScriptModule } from '@nativescript/angular'
+
 
 import { InsightsRoutingModule } from './insights-routing.module';
 
@@ -7,7 +8,7 @@ import { InsightsRoutingModule } from './insights-routing.module';
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
+    NativeScriptModule,
     InsightsRoutingModule
   ]
 })
