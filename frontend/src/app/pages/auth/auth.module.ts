@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 import { AuthRoutingModule } from './auth-routing.module';
+import { NativeScriptModule } from '@nativescript/angular';
 
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
+    NativeScriptModule,
     AuthRoutingModule
   ]
 })
