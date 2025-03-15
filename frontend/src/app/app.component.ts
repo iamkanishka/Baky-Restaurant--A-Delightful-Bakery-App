@@ -4,12 +4,6 @@ import { Component, OnInit } from '@angular/core'
   selector: 'ns-app',
   templateUrl: 'app.component.html',
 })
-export class AppComponent implements OnInit {
-  constructor() {
-    // Use the component constructor to inject providers.
-  }
-
-  ngOnInit(): void {
-    // Init your component properties here.
-  }
+export class AppComponent  {
+   
 }
