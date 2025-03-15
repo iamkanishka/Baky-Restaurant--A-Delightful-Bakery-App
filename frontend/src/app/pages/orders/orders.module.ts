@@ -1,14 +1,13 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 
-import { OrdersRoutingModule } from './orders-routing.module';
+import { NativeScriptModule } from "@nativescript/angular";
 
+import { OrdersRoutingModule } from "./orders-routing.module";
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    OrdersRoutingModule
-  ]
+  imports: [NativeScriptModule, OrdersRoutingModule],
+  schemas: [NO_ERRORS_SCHEMA],
+  
 })
-export class OrdersModule { }
+export class OrdersModule {}
