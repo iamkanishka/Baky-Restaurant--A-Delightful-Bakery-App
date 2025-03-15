@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
 import { MenuRoutingModule } from './menu-routing.module';
+import { NativeScriptModule } from '@nativescript/angular';
 
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
+    NativeScriptModule,
     MenuRoutingModule
   ]
 })
