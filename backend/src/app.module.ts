@@ -6,11 +6,12 @@ import { DiscountsModule } from './discounts/discounts.module';
 import { MenuModule } from './menu/menu.module';
 import { GrowthModule } from './growth/growth.module';
 import { InsightModule } from './insight/insight.module';
+import { ProfileModule } from './profile/profile.module';
 
 @Module({
   
   controllers: [AppController],
   providers: [AppService],
-  imports: [OrdersModule, DiscountsModule, MenuModule, GrowthModule, InsightModule],
+  imports: [OrdersModule, DiscountsModule, MenuModule, GrowthModule, InsightModule, ProfileModule],
 })
 export class AppModule {}
