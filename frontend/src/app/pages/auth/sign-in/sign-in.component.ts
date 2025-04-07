@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Page } from '@nativescript/core';
 
 @Component({
   selector: 'app-sign-in',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './sign-in.component.scss'
 })
 export class SignInComponent {
-
+  constructor(private _page: Page) {
+    this._page.actionBarHidden = true;
+  }
 }
